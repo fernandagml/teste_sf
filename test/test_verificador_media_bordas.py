@@ -3,7 +3,7 @@ from escola import verificador_media as vm
 
 # Teste parametrizado: com uma única função testo vários valores.
 @pytest.mark.parametrize(
-    ("media", "resultado"),
+    ("entrada", "saida"),
     [
         (8, "Aprovado(a)"),
         (4, "Reprovado(a)"),
@@ -16,5 +16,5 @@ from escola import verificador_media as vm
     ]
 )
 
-def test_bordas(media, resultado):
-    assert vm(media) == resultado
+def test_bordas(entrada, saida):
+    assert vm(entrada) == saida

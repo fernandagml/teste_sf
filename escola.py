@@ -9,12 +9,6 @@ def verificador_media(media:int|float) -> str:
 
     elif media > 5 and media < 7:
         return "Recuperação"
-    
-    elif media == str:
-        return TypeError
-    
-    else:
-        return ValueError
 
 if __name__ == "__main__":
-    print(verificador_media(5.5))
+    print(verificador_media('casa'))

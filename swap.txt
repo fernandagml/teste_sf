@@ -1,0 +1,5 @@
+if media == str:
+    return TypeError("Espera-se um valor 'int'")
+
+else:
+    return ValueError("Espera-se um valor entre 0 e 10")

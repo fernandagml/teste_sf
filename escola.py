@@ -11,4 +11,6 @@ def verificador_media(media:int|float) -> str:
         return "Recuperação"
 
 if __name__ == "__main__":
-    print(verificador_media('casa'))
+    print(verificador_media("casa"))
+
+# Testes unitários.

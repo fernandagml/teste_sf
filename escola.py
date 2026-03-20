@@ -21,4 +21,7 @@ def verificador_media(media:int|float) -> str:
 if __name__ == "__main__":
     print(verificador_media("casa"))
 
-# Testes unitários.
+
+# Testes Unitários -> Uma única função 👆👆
+
+# Testes Funcionais -> Sistema inteiro

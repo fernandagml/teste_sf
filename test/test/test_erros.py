@@ -22,7 +22,7 @@ def test_value_vazio():
         calcular_media([])
 
 def test_value_str_lista():
-    with pytest.raises(TypeError, match="A lista de notas não pode estar vazia"):
+    with pytest.raises(TypeError, match="As notas devem ser uma lista numérica"):
         calcular_media(["nove", "dez", "dois"])
 
 def test_value_int():

@@ -1,0 +1,2 @@
+pip install pytest-html
+python -m pytest --html=nome.html

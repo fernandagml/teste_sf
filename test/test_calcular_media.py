@@ -10,7 +10,18 @@ import pytest
                              ([1, 10, 8, 4, 9, 9, 8.5], 7.1),
                              ([0, 0, 0], 0.0),
                              ([10, 10, 10], 10.0)
-                         ])
+                         ], 
+                         ids=
+                         [
+                             "3 inteiros",
+                             "3 decimais",
+                             "Inteiras e decimais",
+                             "Uma nota",
+                             "Varias notas",
+                             "Menor valor possível",
+                             "Maior valor possível"
+                         ]
+                         )
 
 def test_boletim_happy_path(notas, resultado):
     assert calcular_media(notas) == resultado
